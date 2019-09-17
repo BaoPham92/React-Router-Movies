@@ -19,7 +19,6 @@ const App = () => {
 
       <Route exact path={`/`} render={() => <MovieList />} />
       <Route exact path={`/movies/:id`} render={(props) => <Movie {...props}/>} />
-      <Route />
     </div>
   );
 };
